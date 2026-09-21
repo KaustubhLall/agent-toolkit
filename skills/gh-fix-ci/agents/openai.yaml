@@ -1,0 +1,8 @@
+interface:
+  display_name: "GitHub Actions CI Repair"
+  short_description: "Inspect and repair failing GitHub Actions PR checks"
+  icon_small: "./assets/github-small.svg"
+  icon_large: "./assets/github.png"
+  default_prompt: "Use $gh-fix-ci to inspect failing GitHub Actions checks, identify the evidenced cause, and repair it within the requested scope."
+policy:
+  allow_implicit_invocation: true

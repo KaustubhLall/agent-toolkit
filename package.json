@@ -1,0 +1,13 @@
+{
+  "name": "portable-agent-toolkit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node tools/sync.mjs --verify",
+    "sync": "node tools/sync.mjs",
+    "install:agents": "node tools/install.mjs --targets codex,claude --apply"
+  }
+}

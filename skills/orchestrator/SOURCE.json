@@ -1,0 +1,22 @@
+{
+  "name": "orchestrator",
+  "kind": "local adaptation; not the upstream package",
+  "sources": [
+    {
+      "repo": "obra/superpowers",
+      "commit": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "url": "https://github.com/obra/superpowers/tree/5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "license_file": "licenses/obra__superpowers.txt"
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "commit": "934195f955cf0da847d59fcd6f68856bce112d8b",
+      "url": "https://github.com/affaan-m/ECC/tree/934195f955cf0da847d59fcd6f68856bce112d8b"
+    }
+  ],
+  "adaptations": [
+    "Replace platform-specific orchestration with a model-neutral one-integrator method.",
+    "Preserve conditional planner, executor, reviewer, state, diagnostics, and approval boundaries.",
+    "Route detailed ECC references lazily through the catalog rather than loading the full pack."
+  ]
+}

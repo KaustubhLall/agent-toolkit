@@ -1,0 +1,22 @@
+{
+  "name": "frontend-design",
+  "repo": "PracticalSwan/agent-skills",
+  "path": "frontend-design",
+  "commit": "ff6d12f61e8250dd1b988e101a482f6adc05c451",
+  "upstream_url": "https://github.com/PracticalSwan/agent-skills/tree/ff6d12f61e8250dd1b988e101a482f6adc05c451/frontend-design",
+  "additional_sources": [
+    {
+      "repo": "addyosmani/web-quality-skills",
+      "path": "skills/web-quality-audit/SKILL.md",
+      "commit": "afa8da942115f2961fdbfa80807ea0b232ff6c00",
+      "license": "MIT",
+      "sha256": "1903cfb4dcba987d50dc7a51f6c19ec43830ff924c2c8f78979d8775fbe20f91"
+    }
+  ],
+  "adaptations": [
+    "Normalize optional frontmatter for Codex.",
+    "Remove absent sibling-skill links.",
+    "Document contrast helper's opaque-color, batch, and Windows encoding limits.",
+    "Add an optional quality-modes reference: measurement-first release auditing, runtime-specific performance diagnosis, layout-divergence criteria, and a safe first browser-regression gate."
+  ]
+}

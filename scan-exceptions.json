@@ -1,0 +1,8 @@
+[
+  {
+    "path": "plugins/ecc-workbench/library/skills/continuous-learning-v2/scripts/test_parse_instinct.py",
+    "rule": "authenticated URL",
+    "sha256": "acf556e8a8023347b35988bb490927a4e9f65f2579b03f26cad610687656605b",
+    "reason": "Reviewed upstream unit fixture uses literal user:token at github.com/test/repo.git; any file change invalidates this exception."
+  }
+]

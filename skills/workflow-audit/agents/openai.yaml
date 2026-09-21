@@ -1,0 +1,5 @@
+interface:
+  display_name: "Workflow Audit"
+  short_description: "Audit agent skills and harness integrations"
+policy:
+  allow_implicit_invocation: true

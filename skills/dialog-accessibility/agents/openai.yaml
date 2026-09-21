@@ -1,0 +1,6 @@
+interface:
+  display_name: "Dialog Accessibility"
+  short_description: "Review dialog focus, naming, and close behavior"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,18 @@
+{
+  "name": "json-canvas",
+  "repo": "kepano/obsidian-skills",
+  "path": "skills/json-canvas",
+  "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+  "upstream_url": "https://github.com/kepano/obsidian-skills/tree/3ccff5338ea700537839b21900aa5358a0402c98/skills/json-canvas",
+  "adaptations": [
+    "Scope activation to actual Obsidian/JSON Canvas files.",
+    "Correct ID requirement to unique strings; preserve valid existing non-hex IDs."
+  ],
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata."
+    ]
+  }
+}

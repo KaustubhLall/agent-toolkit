@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "remote": "https://github.com/YOUR-ACCOUNT/YOUR-REPO.git",
+  "requireReview": true,
+  "skillSources": [{"path": "/absolute/path/to/skills", "names": ["example-skill"]}],
+  "preferencesFile": "/absolute/path/to/working-preferences.md",
+  "preferenceSections": ["Engineering signatures", "Writing and communication"],
+  "replacements": [["/absolute/private/home", "{{HOME}}"]],
+  "deniedTerms": ["PRIVATE ORGANIZATION NAME"],
+  "overrides": {},
+  "approvedBinaryHashes": {}
+}

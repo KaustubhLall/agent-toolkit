@@ -1,0 +1,20 @@
+{
+  "name": "ecc-workbench",
+  "version": "1.0.0+codex.20260920190642",
+  "description": "ECC operating methods, searchable reference library and local execution state adapted for Codex.",
+  "author": {
+    "name": "Toolkit maintainer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ECC Workbench",
+    "shortDescription": "Orchestration, state and on-demand expertise",
+    "longDescription": "A small Codex interface to the pinned ECC library, native lifecycle hooks and explicit project-local work-item state.",
+    "developerName": "Toolkit maintainer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use ECC Workbench to select applicable methods and complete the task with evidence."
+  },
+  "license": "MIT",
+  "repository": "https://github.com/affaan-m/ECC"
+}

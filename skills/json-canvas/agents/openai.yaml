@@ -1,0 +1,6 @@
+interface:
+  display_name: "JSON Canvas"
+  short_description: "Create and validate Obsidian Canvas files"
+
+policy:
+  allow_implicit_invocation: true

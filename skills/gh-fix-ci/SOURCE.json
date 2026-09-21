@@ -1,0 +1,12 @@
+{
+  "upstream": {
+    "repository": "openai/skills",
+    "url": "https://github.com/openai/skills",
+    "commit": "49f948faa9258a0c61caceaf225e179651397431",
+    "source_path": "skills/.curated/gh-fix-ci",
+    "license": "Apache-2.0",
+    "license_file": "LICENSE.txt"
+  },
+  "adapted_on": "2026-09-18",
+  "adaptation": "Reliability repair for structured outcomes, conservative check-state handling, and repository-bound GitHub Actions URL validation."
+}

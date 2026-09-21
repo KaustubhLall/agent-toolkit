@@ -1,0 +1,20 @@
+{
+  "name": "jupyter-notebook",
+  "repo": "openai/skills",
+  "path": "skills/.curated/jupyter-notebook",
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "upstream_url": "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/jupyter-notebook",
+  "adaptations": [
+    "Default output is rooted in the current working repository, not the installation directory.",
+    "Add required unique notebook 4.5 cell IDs to both templates.",
+    "Document Windows interpreter and explicit output handling.",
+    "Record the executing Python version rather than a hardcoded 3.12 value."
+  ],
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata."
+    ]
+  }
+}

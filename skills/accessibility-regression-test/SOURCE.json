@@ -1,0 +1,19 @@
+{
+  "name": "accessibility-regression-test",
+  "repo": "smukh/a11y-agent-skills",
+  "commit": "8bc24f049734c607e23bd3955700fd4858649614",
+  "path": "skills/accessibility-regression-test",
+  "upstream_url": "https://github.com/smukh/a11y-agent-skills/tree/8bc24f049734c607e23bd3955700fd4858649614/skills/accessibility-regression-test",
+  "adaptations": [
+    "Use existing browser/test tooling and project components; no bundled CLI, MCP, hooks, or runtime installed.",
+    "Clarify browser/accessibility trigger boundaries and allow automatic selection."
+  ],
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata.",
+      "Refine task trigger and scope."
+    ]
+  }
+}

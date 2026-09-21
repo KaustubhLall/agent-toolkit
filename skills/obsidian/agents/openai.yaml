@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Vault"
+  short_description: "Update and consolidate the user's Obsidian vault"
+  default_prompt: "Use $obsidian to update the configured Obsidian vault and propagate related changes."

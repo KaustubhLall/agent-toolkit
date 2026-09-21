@@ -1,0 +1,15 @@
+{
+  "kind": "local adaptation; not the upstream package",
+  "sources": [
+    {
+      "repo": "OthmanAdi/planning-with-files",
+      "commit": "faf1a15a7dcc17a9e0f49760da0756d1a5d4609a",
+      "url": "https://github.com/OthmanAdi/planning-with-files/tree/faf1a15a7dcc17a9e0f49760da0756d1a5d4609a",
+      "license_file": "licenses/OthmanAdi__planning-with-files.txt"
+    }
+  ],
+  "adaptations": [
+    "Retain persistence and recovery; replace hooks and fixed root files with existing task records.",
+    "No automatic gitignore, goal, loop, completion gate, or transcript-store access."
+  ]
+}

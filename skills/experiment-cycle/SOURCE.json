@@ -1,0 +1,22 @@
+{
+  "kind": "local adaptation; not the upstream package",
+  "sources": [
+    {
+      "repo": "Toadoum/ai-research-skill",
+      "commit": "bc98310bc2dc5c600f89f60099eed6cb950f6de1",
+      "url": "https://github.com/Toadoum/ai-research-skill/tree/bc98310bc2dc5c600f89f60099eed6cb950f6de1",
+      "license_file": "licenses/Toadoum__ai-research-skill.txt"
+    },
+    {
+      "repo": "K-Dense-AI/science-superpowers",
+      "commit": "0374bdf82c2372bdf1667e3c762146c3a29215f5",
+      "url": "https://github.com/K-Dense-AI/science-superpowers/tree/0374bdf82c2372bdf1667e3c762146c3a29215f5",
+      "license_file": "licenses/K-Dense-AI__science-superpowers.txt"
+    }
+  ],
+  "adaptations": [
+    "Stage-aware exploration and confirmation; lessons stay with the project.",
+    "Remove universal three-seed, fixed prereg paths, shell-runner dependencies, and expensive rerun-on-every-claim.",
+    "Local freeze is traceability rather than proof of prior non-access; distinguish correlated sampling units."
+  ]
+}

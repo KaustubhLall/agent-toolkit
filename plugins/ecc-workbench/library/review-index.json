@@ -1,0 +1,2944 @@
+{
+  "schema": "ecc-catalog-classification.v1",
+  "checkedAt": "2026-09-20",
+  "sourceRoot": "library/skills",
+  "catalogCount": 292,
+  "semanticReviewedCount": 42,
+  "metadataOnlyCount": 250,
+  "categoryCounts": {
+    "domain-specific": 76,
+    "operational/core": 46,
+    "ML/research": 22,
+    "unavailable integrations": 32,
+    "engineering languages/frameworks": 78,
+    "knowledge/product": 38
+  },
+  "dispositionDefinitions": {
+    "adopt": "Use as a first-class router or operating method after adapting platform-specific mechanics.",
+    "adapt": "Retain the useful method but integrate it into an existing installed owner and remove unsupported ceremony.",
+    "referenceOnly": "Keep as detailed on-demand guidance for an explicitly matching stack or task.",
+    "defer": "Do not activate by default; revisit when a concrete task and evidence justify it."
+  },
+  "skills": [
+    {
+      "name": "accessibility",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches accessibility",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/accessibility/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-architecture-audit",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches agent architecture audit; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/agent-architecture-audit/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-eval",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on agent eval or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/agent-eval/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-harness-construction",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches agent harness construction; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/agent-harness-construction/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-introspection-debugging",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches agent introspection debugging; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/agent-introspection-debugging/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-payment-x402",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs agent-payment-x402",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/agent-payment-x402/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-self-evaluation",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on agent self evaluation or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/agent-self-evaluation/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agent-sort",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches agent sort; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/agent-sort/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agentic-engineering",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches agentic engineering; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/agentic-engineering/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "agentic-os",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches agentic os; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/agentic-os/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ai-first-engineering",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ai first engineering",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ai-first-engineering/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ai-regression-testing",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches ai regression testing; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/ai-regression-testing/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "android-clean-architecture",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the android clean architecture stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/android-clean-architecture/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "angular-developer",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the angular developer stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/angular-developer/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "api-connector-builder",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs api-connector-builder",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/api-connector-builder/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "api-design",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the api design stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/api-design/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "architecture-decision-records",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches architecture decision records",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/architecture-decision-records/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "article-writing",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing article writing work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/article-writing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "automation-audit-ops",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches automation audit ops",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/automation-audit-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "autonomous-agent-harness",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches autonomous agent harness",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/autonomous-agent-harness/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "autonomous-loops",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches autonomous loops",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/autonomous-loops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "backend-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the backend patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/backend-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "benchmark",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on benchmark or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/benchmark/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "benchmark-methodology",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on benchmark methodology or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/benchmark-methodology/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "benchmark-optimization-loop",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on benchmark optimization loop or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/benchmark-optimization-loop/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "blender-motion-state-inspection",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches blender motion state inspection",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/blender-motion-state-inspection/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "blueprint",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing blueprint work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/blueprint/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "brand-discovery",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing brand discovery work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/brand-discovery/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "brand-voice",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing brand voice work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/brand-voice/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "browser-qa",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the browser qa stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/browser-qa/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "bun-runtime",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the bun runtime stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/bun-runtime/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "canary-watch",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches canary watch",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/canary-watch/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "carrier-relationship-management",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs carrier-relationship-management",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/carrier-relationship-management/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "cisco-ios-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the cisco ios patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/cisco-ios-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ck",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ck",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ck/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "claude-devfleet",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches claude devfleet",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/claude-devfleet/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "click-path-audit",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches click path audit",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/click-path-audit/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "clickhouse-io",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the clickhouse io stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/clickhouse-io/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "code-tour",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches code tour",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/code-tour/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "codebase-onboarding",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches codebase onboarding",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/codebase-onboarding/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "codehealth-mcp",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches codehealth mcp",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/codehealth-mcp/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "coding-standards",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches coding standards; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/coding-standards/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "competitive-platform-analysis",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing competitive platform analysis work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/competitive-platform-analysis/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "competitive-report-structure",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing competitive report structure work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/competitive-report-structure/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "compose-multiplatform-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the compose multiplatform patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/compose-multiplatform-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "config-gc",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches config gc",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/config-gc/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "configure-ecc",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches configure ecc",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/configure-ecc/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "connections-optimizer",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches connections optimizer",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/connections-optimizer/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "content-engine",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing content engine work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/content-engine/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "content-hash-cache-pattern",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches content hash cache pattern; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/content-hash-cache-pattern/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "context-budget",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches context budget; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/context-budget/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "continuous-agent-loop",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches continuous agent loop; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/continuous-agent-loop/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "continuous-learning",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches continuous learning; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/continuous-learning/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "continuous-learning-v2",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches continuous learning v2; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/continuous-learning-v2/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "contract-first",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches contract first; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/contract-first/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "cost-aware-llm-pipeline",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches cost aware llm pipeline",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/cost-aware-llm-pipeline/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "cost-tracking",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches cost tracking",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/cost-tracking/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "council",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches council",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/council/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "council-multi-model",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches council multi model",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/council-multi-model/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "counterparty-channel-discipline",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches counterparty channel discipline",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/counterparty-channel-discipline/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "cpp-coding-standards",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the cpp coding standards stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/cpp-coding-standards/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "cpp-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the cpp testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/cpp-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "crosspost",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing crosspost work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/crosspost/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "csharp-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the csharp testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/csharp-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "customer-billing-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs customer-billing-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/customer-billing-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "customs-trade-compliance",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs customs-trade-compliance",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/customs-trade-compliance/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dart-flutter-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the dart flutter patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/dart-flutter-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dashboard-builder",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing dashboard builder work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/dashboard-builder/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "data-scraper-agent",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs data-scraper-agent",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/data-scraper-agent/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "data-throughput-accelerator",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on data throughput accelerator or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/data-throughput-accelerator/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "database-migrations",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the database migrations stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/database-migrations/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "deep-research",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on deep research or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/deep-research/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "defi-amm-security",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches defi amm security",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/defi-amm-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "delivery-gate",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches delivery gate; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/delivery-gate/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "deployment-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the deployment patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/deployment-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "design-system",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing design system work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/design-system/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dev-team",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches dev team",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/dev-team/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "django-celery",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the django celery stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/django-celery/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "django-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the django patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/django-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "django-security",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the django security stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/django-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "django-tdd",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the django tdd stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/django-tdd/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "django-verification",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the django verification stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/django-verification/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dmux-workflows",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches dmux workflows",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/dmux-workflows/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "docker-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the docker patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/docker-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "documentation-lookup",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing documentation lookup work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/documentation-lookup/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dotnet-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the dotnet patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/dotnet-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "dynamic-workflow-mode",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches dynamic workflow mode; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/dynamic-workflow-mode/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "e2e-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the e2e testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/e2e-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ecc-guide",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ecc guide",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ecc-guide/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ecc-recipes",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ecc recipes",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ecc-recipes/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ecc-tools-cost-audit",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ecc tools cost audit",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ecc-tools-cost-audit/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "email-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs email-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/email-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "energy-procurement",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs energy-procurement",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/energy-procurement/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "enterprise-agent-ops",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches enterprise agent ops",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/enterprise-agent-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "error-handling",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches error handling; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/error-handling/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "esign-field-placement",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs esign-field-placement",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/esign-field-placement/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "eval-harness",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches eval harness",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/eval-harness/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "evm-token-decimals",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches evm token decimals",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/evm-token-decimals/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "exa-search",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs exa-search",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/exa-search/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "fal-ai-media",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs fal-ai-media",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/fal-ai-media/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "fastapi-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the fastapi patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/fastapi-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "finance-billing-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs finance-billing-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/finance-billing-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "flox-environments",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches flox environments",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/flox-environments/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "flutter-dart-code-review",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the flutter dart code review stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/flutter-dart-code-review/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "foundation-models-on-device",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on foundation models on device or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/foundation-models-on-device/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "frontend-a11y",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing frontend a11y work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/frontend-a11y/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "frontend-design-direction",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing frontend design direction work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/frontend-design-direction/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "frontend-patterns",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing frontend patterns work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/frontend-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "frontend-slides",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing frontend slides work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/frontend-slides/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "fsharp-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the fsharp testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/fsharp-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "gan-style-harness",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on gan style harness or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/gan-style-harness/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "gateguard",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches gateguard; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/gateguard/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "generating-python-installer",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches generating python installer",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/generating-python-installer/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "git-workflow",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches git workflow; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/git-workflow/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "github-ops",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches github ops; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/github-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "golang-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the golang patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/golang-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "golang-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the golang testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/golang-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "google-workspace-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs google-workspace-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/google-workspace-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "growth-log",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing growth log work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/growth-log/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "healthcare-cdss-patterns",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches healthcare cdss patterns",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/healthcare-cdss-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "healthcare-emr-patterns",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches healthcare emr patterns",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/healthcare-emr-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "healthcare-eval-harness",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on healthcare eval harness or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/healthcare-eval-harness/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "healthcare-phi-compliance",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches healthcare phi compliance",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/healthcare-phi-compliance/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "hermes-imports",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs hermes-imports",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/hermes-imports/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "hexagonal-architecture",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the hexagonal architecture stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/hexagonal-architecture/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "hipaa-compliance",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches hipaa compliance",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/hipaa-compliance/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "homelab-network-readiness",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches homelab network readiness",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/homelab-network-readiness/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "homelab-network-setup",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches homelab network setup",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/homelab-network-setup/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "homelab-pihole-dns",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches homelab pihole dns",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/homelab-pihole-dns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "homelab-vlan-segmentation",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches homelab vlan segmentation",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/homelab-vlan-segmentation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "homelab-wireguard-vpn",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches homelab wireguard vpn",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/homelab-wireguard-vpn/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "hookify-rules",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches hookify rules",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/hookify-rules/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "inherit-legacy-style",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches inherit legacy style",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/inherit-legacy-style/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "intent-driven-development",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches intent driven development",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/intent-driven-development/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "inventory-demand-planning",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches inventory demand planning",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/inventory-demand-planning/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "investor-materials",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing investor materials work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/investor-materials/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "investor-outreach",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing investor outreach work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/investor-outreach/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ios-icon-gen",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ios icon gen",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ios-icon-gen/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "iterative-retrieval",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches iterative retrieval; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/iterative-retrieval/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ito-baskets",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs ito-baskets",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/ito-baskets/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ito-compute",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs ito-compute",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/ito-compute/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ito-inference",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs ito-inference",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/ito-inference/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ito-training",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs ito-training",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/ito-training/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "java-coding-standards",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the java coding standards stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/java-coding-standards/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "jira-integration",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs jira-integration",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/jira-integration/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "jpa-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the jpa patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/jpa-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "knowledge-ops",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing knowledge ops work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/knowledge-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kotlin-coroutines-flows",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kotlin coroutines flows stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kotlin-coroutines-flows/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kotlin-exposed-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kotlin exposed patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kotlin-exposed-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kotlin-ktor-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kotlin ktor patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kotlin-ktor-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kotlin-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kotlin patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kotlin-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kotlin-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kotlin testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kotlin-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "kubernetes-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the kubernetes patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/kubernetes-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "laravel-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the laravel patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/laravel-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "laravel-plugin-discovery",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the laravel plugin discovery stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/laravel-plugin-discovery/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "laravel-security",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the laravel security stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/laravel-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "laravel-tdd",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the laravel tdd stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/laravel-tdd/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "laravel-verification",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the laravel verification stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/laravel-verification/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "latency-critical-systems",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches latency critical systems",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/latency-critical-systems/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "lead-intelligence",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs lead-intelligence",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/lead-intelligence/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "liquid-glass-design",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing liquid glass design work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/liquid-glass-design/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "living-docs-governance",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches living docs governance; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/living-docs-governance/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "llm-trading-agent-security",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches llm trading agent security",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/llm-trading-agent-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "logistics-exception-management",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches logistics exception management",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/logistics-exception-management/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "loop-design-check",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches loop design check; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/loop-design-check/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "mailtrap-email-integration",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs mailtrap-email-integration",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/mailtrap-email-integration/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "make-interfaces-feel-better",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing make interfaces feel better work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/make-interfaces-feel-better/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "manim-video",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing manim video work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/manim-video/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "market-research",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on market research or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/market-research/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "marketing-campaign",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing marketing campaign work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/marketing-campaign/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "master-agreement-generator",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches master agreement generator",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/master-agreement-generator/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "mcp-server-patterns",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches mcp server patterns",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/mcp-server-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "messages-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs messages-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/messages-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ml-adoption-playbook",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on ml adoption playbook or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/ml-adoption-playbook/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "mle-workflow",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on mle workflow or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/mle-workflow/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "motion-advanced",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing motion advanced work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/motion-advanced/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "motion-foundations",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing motion foundations work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/motion-foundations/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "motion-patterns",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing motion patterns work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/motion-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "mysql-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the mysql patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/mysql-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nanoclaw-repl",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches nanoclaw repl",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/nanoclaw-repl/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nasiko-control-plane",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs nasiko-control-plane",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/nasiko-control-plane/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nestjs-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the nestjs patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/nestjs-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "netmiko-ssh-automation",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs netmiko-ssh-automation",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/netmiko-ssh-automation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "network-bgp-diagnostics",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches network bgp diagnostics",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/network-bgp-diagnostics/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "network-config-validation",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches network config validation",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/network-config-validation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "network-interface-health",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches network interface health",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/network-interface-health/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nextjs-turbopack",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the nextjs turbopack stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/nextjs-turbopack/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nodejs-keccak256",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the nodejs keccak256 stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/nodejs-keccak256/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nutrient-document-processing",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches nutrient document processing",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/nutrient-document-processing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "nuxt4-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the nuxt4 patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/nuxt4-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "openclaw-persona-forge",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs openclaw-persona-forge",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/openclaw-persona-forge/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "opensource-pipeline",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches opensource pipeline",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/opensource-pipeline/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "operator-approval-loop",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches operator approval loop; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/operator-approval-loop/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-add-feature",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch add feature",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-add-feature/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-build-mvp",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch build mvp",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-build-mvp/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-change-feature",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch change feature",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-change-feature/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-fix-defect",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch fix defect",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-fix-defect/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-pipeline",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch pipeline",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-pipeline/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "orch-refine-code",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches orch refine code",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/orch-refine-code/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "parallel-execution-optimizer",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches parallel execution optimizer",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/parallel-execution-optimizer/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "perl-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the perl patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/perl-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "perl-security",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the perl security stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/perl-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "perl-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the perl testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/perl-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "plan-canvas",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches plan canvas; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/plan-canvas/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "plan-orchestrate",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches plan orchestrate; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/plan-orchestrate/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "plankton-code-quality",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches plankton code quality; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/plankton-code-quality/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "postgres-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the postgres patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/postgres-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "prediction-market-oracle-research",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs prediction-market-oracle-research",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/prediction-market-oracle-research/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "prediction-market-risk-review",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs prediction-market-risk-review",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/prediction-market-risk-review/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "prisma-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the prisma patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/prisma-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "product-capability",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing product capability work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/product-capability/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "product-lens",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing product lens work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/product-lens/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "production-audit",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches production audit; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/production-audit/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "production-scheduling",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing production scheduling work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/production-scheduling/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "project-flow-ops",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches project flow ops",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/project-flow-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "prompt-optimizer",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches prompt optimizer",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/prompt-optimizer/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "python-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the python patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/python-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "python-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the python testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/python-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "pytorch-patterns",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on pytorch patterns or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/pytorch-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "quality-nonconformance",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches quality nonconformance; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/quality-nonconformance/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "quarkus-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the quarkus patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/quarkus-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "quarkus-security",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the quarkus security stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/quarkus-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "quarkus-tdd",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the quarkus tdd stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/quarkus-tdd/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "quarkus-verification",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the quarkus verification stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/quarkus-verification/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "rails-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the rails patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/rails-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ralphinho-rfc-pipeline",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches ralphinho rfc pipeline",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/ralphinho-rfc-pipeline/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "react-native-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the react native patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/react-native-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "react-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the react patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/react-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "react-performance",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the react performance stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/react-performance/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "react-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the react testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/react-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "recsys-pipeline-architect",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on recsys pipeline architect or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/recsys-pipeline-architect/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "recursive-decision-ledger",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches recursive decision ledger; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/recursive-decision-ledger/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "redis-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the redis patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/redis-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "regex-vs-llm-structured-text",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches regex vs llm structured text",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/regex-vs-llm-structured-text/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "remotion-video-creation",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing remotion video creation work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/remotion-video-creation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "repo-scan",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches repo scan; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/repo-scan/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "research-ops",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on research ops or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/research-ops/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "returns-reverse-logistics",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches returns reverse logistics",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/returns-reverse-logistics/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "rules-distill",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches rules distill; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/rules-distill/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "rust-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the rust patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/rust-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "rust-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the rust testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/rust-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "safety-guard",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches safety guard; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/safety-guard/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "santa-method",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches santa method",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/santa-method/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "scientific-db-pubmed-database",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on scientific db pubmed database or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/scientific-db-pubmed-database/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "scientific-db-uspto-database",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on scientific db uspto database or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/scientific-db-uspto-database/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "scientific-pkg-gget",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on scientific pkg gget or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/scientific-pkg-gget/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "scientific-thinking-literature-review",
+      "category": "ML/research",
+      "disposition": "adapt",
+      "trigger": "When working on scientific thinking literature review or a materially matching experiment",
+      "rationale": "Semantically reviewed; adapt the useful contract/evidence pattern into experiment-cycle or production-ml-review.",
+      "source": "library/skills/scientific-thinking-literature-review/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "scientific-thinking-scholar-evaluation",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on scientific thinking scholar evaluation or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/scientific-thinking-scholar-evaluation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "search-first",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches search first; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/search-first/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "security-bounty-hunter",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches security bounty hunter",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/security-bounty-hunter/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "security-review",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches security review; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/security-review/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "security-scan",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches security scan; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/security-scan/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "seo",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing seo work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/seo/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "skill-comply",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches skill comply; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/skill-comply/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "skill-scout",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches skill scout; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/skill-scout/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "skill-stocktake",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches skill stocktake; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/skill-stocktake/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "social-graph-ranker",
+      "category": "ML/research",
+      "disposition": "defer",
+      "trigger": "When working on social graph ranker or a materially matching experiment",
+      "rationale": "Metadata-only classification; inspect before use.",
+      "source": "library/skills/social-graph-ranker/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "social-publisher",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs social-publisher",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/social-publisher/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "springboot-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the springboot patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/springboot-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "springboot-security",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the springboot security stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/springboot-security/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "springboot-tdd",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the springboot tdd stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/springboot-tdd/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "springboot-verification",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the springboot verification stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/springboot-verification/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "strategic-compact",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches strategic compact; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/strategic-compact/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "swift-actor-persistence",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the swift actor persistence stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/swift-actor-persistence/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "swift-concurrency-6-2",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the swift concurrency 6 2 stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/swift-concurrency-6-2/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "swift-protocol-di-testing",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the swift protocol di testing stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/swift-protocol-di-testing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "swiftui-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the swiftui patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/swiftui-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "taste",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing taste work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/taste/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "taste-application",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing taste application work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/taste-application/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "taste-distillation",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing taste distillation work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/taste-distillation/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "tasteforge-video",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing tasteforge video work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/tasteforge-video/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "tdd-workflow",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches tdd workflow; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/tdd-workflow/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "team-agent-orchestration",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches team agent orchestration; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/team-agent-orchestration/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "team-builder",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches team builder; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/team-builder/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "terminal-opener",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches terminal opener",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/terminal-opener/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "terminal-ops",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches terminal ops",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/terminal-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "tinystruct-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the tinystruct patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/tinystruct-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "token-budget-advisor",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches token budget advisor; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/token-budget-advisor/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ui-demo",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing ui demo work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/ui-demo/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "ui-to-vue",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing ui to vue work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/ui-to-vue/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "uncloud",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches uncloud",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/uncloud/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "unified-memory",
+      "category": "domain-specific",
+      "disposition": "defer",
+      "trigger": "Only when the task explicitly matches unified memory",
+      "rationale": "No current workflow evidence justifies activation by default; preserve for future scoped review.",
+      "source": "library/skills/unified-memory/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "unified-notifications-ops",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs unified-notifications-ops",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/unified-notifications-ops/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "verification-loop",
+      "category": "operational/core",
+      "disposition": "adapt",
+      "trigger": "When the task matches verification loop; load on demand",
+      "rationale": "Metadata-only classification; likely reusable after checking platform fit.",
+      "source": "library/skills/verification-loop/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "video-editing",
+      "category": "knowledge/product",
+      "disposition": "reference-only",
+      "trigger": "When creating, researching, or reviewing video editing work",
+      "rationale": "Useful task-specific method or content/design reference; load only for matching work.",
+      "source": "library/skills/video-editing/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "videodb",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs videodb",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/videodb/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "visa-doc-translate",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs visa-doc-translate",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/visa-doc-translate/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "vite-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the vite patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/vite-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "vue-patterns",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the vue patterns stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/vue-patterns/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "windows-desktop-e2e",
+      "category": "engineering languages/frameworks",
+      "disposition": "reference-only",
+      "trigger": "When the repository uses the windows desktop e2e stack",
+      "rationale": "Keep as an on-demand detailed reference; do not preload unrelated framework guidance.",
+      "source": "library/skills/windows-desktop-e2e/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "workspace-surface-audit",
+      "category": "operational/core",
+      "disposition": "adopt",
+      "trigger": "When the task matches workspace surface audit; load on demand",
+      "rationale": "Semantically reviewed as routing, safety, verification, or state infrastructure.",
+      "source": "library/skills/workspace-surface-audit/SKILL.md",
+      "reviewStatus": "semantic-reviewed",
+      "availability": "on-demand-reference"
+    },
+    {
+      "name": "x-api",
+      "category": "unavailable integrations",
+      "disposition": "defer",
+      "trigger": "When the task explicitly needs x-api",
+      "rationale": "Requires an external service, connector, account, or domain context not verified in the current Codex surface; retain as on-demand reference.",
+      "source": "library/skills/x-api/SKILL.md",
+      "reviewStatus": "metadata-only",
+      "availability": "on-demand-reference"
+    }
+  ]
+}

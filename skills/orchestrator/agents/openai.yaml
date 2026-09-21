@@ -1,0 +1,6 @@
+interface:
+  display_name: "ECC Workbench Orchestrator"
+  short_description: "Route substantial work and verify integrated results"
+  default_prompt: "Use $orchestrator to select a task-fit method, route useful work, and verify the integrated result."
+policy:
+  allow_implicit_invocation: true

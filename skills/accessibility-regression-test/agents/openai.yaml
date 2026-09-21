@@ -1,0 +1,6 @@
+interface:
+  display_name: "Accessibility Regression Tests"
+  short_description: "Guard repaired accessibility behavior with focused tests"
+
+policy:
+  allow_implicit_invocation: true

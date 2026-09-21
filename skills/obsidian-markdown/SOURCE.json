@@ -1,0 +1,19 @@
+{
+  "name": "obsidian-markdown",
+  "repo": "kepano/obsidian-skills",
+  "path": "skills/obsidian-markdown",
+  "commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+  "upstream_url": "https://github.com/kepano/obsidian-skills/tree/3ccff5338ea700537839b21900aa5358a0402c98/skills/obsidian-markdown",
+  "adaptations": [
+    "Keep custom Obsidian skill authoritative for vault structure; use this skill for syntax.",
+    "Add table-safe wikilink alias escaping after a forward-test exposed an unescaped pipe."
+  ],
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata.",
+      "Refine task trigger and scope."
+    ]
+  }
+}

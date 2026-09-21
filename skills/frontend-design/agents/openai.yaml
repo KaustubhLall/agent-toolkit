@@ -1,0 +1,6 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "Design interfaces and investigate frontend quality"
+  default_prompt: "Use $frontend-design to select the appropriate design or quality mode for this frontend task and verify the relevant rendered behavior."
+policy:
+  allow_implicit_invocation: true

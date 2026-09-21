@@ -1,0 +1,22 @@
+{
+  "name": "scientific-critical-thinking",
+  "repo": "K-Dense-AI/scientific-agent-skills",
+  "path": "skills/scientific-critical-thinking",
+  "commit": "330c8e764435a731eff571e3efdda70b363d0792",
+  "upstream_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/330c8e764435a731eff571e3efdda70b363d0792/skills/scientific-critical-thinking",
+  "adaptations": [
+    "Remove unavailable OpenRouter schematic routing and automatic vendor citations.",
+    "Clarify quantitative uncertainty and framework applicability to ML/game claims.",
+    "Replace universal sample-size/power heuristics with design-specific interpretation.",
+    "Remove host-specific tool declarations."
+  ],
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata.",
+      "Refine task trigger and scope.",
+      "Align overview with ML/benchmark evidence and conditional clinical frameworks."
+    ]
+  }
+}

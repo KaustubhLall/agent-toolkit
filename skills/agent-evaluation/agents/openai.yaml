@@ -1,0 +1,5 @@
+interface:
+  display_name: "Agent Evaluation"
+  short_description: "Evaluate prompt, tool and agent behavior fairly"
+policy:
+  allow_implicit_invocation: true

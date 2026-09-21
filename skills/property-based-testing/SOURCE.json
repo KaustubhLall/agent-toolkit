@@ -1,0 +1,20 @@
+{
+  "name": "property-based-testing",
+  "repo": "trailofbits/skills",
+  "path": "plugins/property-based-testing/skills/property-based-testing",
+  "commit": "123037ec8aed26f0d86327cc39137ee5043e5deb",
+  "upstream_url": "https://github.com/trailofbits/skills/tree/123037ec8aed26f0d86327cc39137ee5043e5deb/plugins/property-based-testing/skills/property-based-testing",
+  "adaptations": [
+    "Move Claude-specific effort field into metadata for Codex skill validation."
+  ],
+  "license": "CC-BY-SA-4.0; local modifications retain the same license",
+  "attribution": "Trail of Bits contributors; see upstream_url and UPSTREAM-LICENSE.txt",
+  "local_integration": {
+    "date": "2026-09-18",
+    "automatic_selection": true,
+    "changes": [
+      "Explicitly preserve implicit invocation; add missing UI metadata.",
+      "Refine task trigger and scope."
+    ]
+  }
+}

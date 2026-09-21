@@ -1,0 +1,5 @@
+interface:
+  display_name: "Production ML Review"
+  short_description: "Review data, artifact and serving contracts"
+policy:
+  allow_implicit_invocation: true

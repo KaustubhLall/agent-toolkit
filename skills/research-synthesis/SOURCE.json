@@ -1,0 +1,16 @@
+{
+  "kind": "local adaptation; not the upstream package",
+  "sources": [
+    {
+      "repo": "hec-ovi/research-skill",
+      "commit": "109589751168ab42f929f3cd1741bd2946b4880b",
+      "url": "https://github.com/hec-ovi/research-skill/tree/109589751168ab42f929f3cd1741bd2946b4880b",
+      "license_file": "licenses/hec-ovi__research-skill.txt"
+    }
+  ],
+  "adaptations": [
+    "Retain independent-origin evidence, contrarian investigation and selective retrieval.",
+    "Remove automatic gitignore, fixed Opus/background model, mandatory storage for trivial facts, and fixed search counts.",
+    "Keep inline attribution and refresh unstable cached claims."
+  ]
+}

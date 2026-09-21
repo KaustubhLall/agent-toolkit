@@ -1,0 +1,6 @@
+interface:
+  display_name: "Keyboard Navigation Review"
+  short_description: "Verify browser keyboard journeys and focus order"
+
+policy:
+  allow_implicit_invocation: true
