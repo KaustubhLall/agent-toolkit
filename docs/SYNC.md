@@ -18,6 +18,10 @@ actual source paths, skill names and approved preference headings. Review the
 source files and licenses first. Configure specific substitutions, privacy
 terms and overrides; a regex scanner alone cannot classify all private prose.
 Keep `requireReview: true`. Use only trusted local configuration.
+Preserve public author and copyright credit when removing private information.
+Kaustubh Lall's harness authorship is intentional public attribution; employer,
+immigration, project and machine details remain excluded. The adaptation flows
+from selected upstream methods into his harness. Keep upstream notices intact.
 
 ```sh
 node tools/sync.mjs --dry-run

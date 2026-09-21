@@ -2,6 +2,7 @@
   "schema": 1,
   "remote": "https://github.com/YOUR-ACCOUNT/YOUR-REPO.git",
   "requireReview": true,
+  "distributionRepository": "https://github.com/YOUR-ACCOUNT/YOUR-REPO",
   "skillSources": [{"path": "/absolute/path/to/skills", "names": ["example-skill"]}],
   "preferencesFile": "/absolute/path/to/working-preferences.md",
   "preferenceSections": ["Engineering signatures", "Writing and communication"],

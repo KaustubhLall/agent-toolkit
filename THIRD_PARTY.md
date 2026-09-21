@@ -1,5 +1,10 @@
 # Source and licensing
 
+The harness, working preferences and integration design are Kaustubh Lall's
+work. Upstream patterns were selected and adapted to fit that existing system.
+Credit below applies to imported methods and content; it does not attribute the
+surrounding harness to the upstream projects. See [AUTHORSHIP.md](AUTHORSHIP.md).
+
 Original bundle tooling, templates, the locally authored Obsidian skill and public preference adaptation are MIT
 licensed; see LICENSE. This does not relicense third-party content.
 
@@ -9,10 +14,14 @@ bytes. Upstream source manifests describe upstream originals and can differ
 from a locally adapted entrypoint; they are not claims that adaptations are
 verbatim originals.
 
-- ECC Workbench and ECC-derived method adaptations: MIT, Affaan Mustafa;
+- ECC upstream corpus and source methods: MIT, Affaan Mustafa;
   upstream `affaan-m/ECC` commit `934195f955cf0da847d59fcd6f68856bce112d8b`.
   `plugins/ecc-workbench/SOURCE.json` pins the vendored originals. The exporter
   checks those originals before applying public transformations.
+- The ECC Workbench host adapters, curated entrypoints and harness integration
+  are Kaustubh Lall's work, incorporating the credited upstream methods. The
+  public plugin metadata identifies Kaustubh as its author and this repository
+  as the distribution; SOURCE.json separately identifies upstream ECC.
 - OpenAI-sourced skills: preserve their accompanying LICENSE.txt and source
   manifests. Several local installed copies do not include a pinned upstream
   source manifest; the bundle's SHA-256 manifest records their exported bytes.

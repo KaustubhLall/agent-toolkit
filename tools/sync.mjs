@@ -92,6 +92,11 @@ export function build(config, root = ROOT) {
     else if (config.approvedBinaryHashes?.[sourceLabel] !== digest(data)) throw new Error(`Unreviewed binary: ${relative}`);
     if (relative === 'skills/obsidian/SKILL.md') data = Buffer.from(data.toString('utf8').replace(/^Read \[references\/index-snapshot\.md\].*$/m, 'Read [references/index-snapshot.md](references/index-snapshot.md) for the public bundle navigation boundary. No private index snapshot is included. Inspect the live vault Home.md and relevant Index.md files before making changes.'));
     if (relative.startsWith('skills/') && textFile(relative)) data = Buffer.from(data.toString('utf8').replaceAll('$CODEX_HOME/skills', '{{SKILLS}}').replaceAll('~/.codex/skills', '{{SKILLS}}').replace(/^export CODEX_HOME=.*\r?\n/gm, ''));
+    if (relative === 'plugins/ecc-workbench/.codex-plugin/plugin.json' && config.distributionRepository) {
+      const metadata = JSON.parse(data.toString('utf8'));
+      metadata.repository = config.distributionRepository;
+      data = Buffer.from(JSON.stringify(metadata,null,2)+'\n');
+    }
     scan(data, relative, config.deniedTerms);
     if (files.has(relative) && !files.get(relative).equals(data)) throw new Error(`Conflicting sources: ${relative}`);
     files.set(relative, data);

@@ -1,5 +1,12 @@
 # Agent Toolkit
 
+**Created and maintained by [Kaustubh Lall](https://github.com/KaustubhLall).**
+
+This is my coding-agent harness: the working preferences, orchestration, skill
+routing, ownership boundaries and verification practices I developed for my work.
+I adapted selected patterns from ECC and other projects to fit that system.
+This repository packages the reusable parts for sharing and machine setup.
+
 A portable, public copy of my reusable coding-agent skills and working preferences.
 Install the same bundle into Codex, Claude Code, Gemini CLI or OpenCode. Keep
 personal data, credentials and machine configuration outside the repository.
@@ -100,5 +107,6 @@ The optional execution-state runtime needs its locked dependencies installed
 with `npm ci --ignore-scripts` in `plugins/ecc-workbench`. Hooks and upstream
 install scripts are included for inspection and are not enabled by this installer.
 
-See [THIRD_PARTY.md](THIRD_PARTY.md) for licenses and [compatibility](docs/COMPATIBILITY.md)
+See [AUTHORSHIP.md](AUTHORSHIP.md) for authorship and the direction of adaptation,
+[THIRD_PARTY.md](THIRD_PARTY.md) for upstream credit and licenses, and [compatibility](docs/COMPATIBILITY.md)
 for documentation sources and verification boundaries.
