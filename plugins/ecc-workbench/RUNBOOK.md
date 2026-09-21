@@ -1,5 +1,9 @@
 # Portable ECC Workbench
 
+Harness adaptation and integration by **Kaustubh Lall**. Upstream ECC reference
+material and source methods by **Affaan Mustafa and ECC contributors**.
+Selected upstream patterns were adapted to fit Kaustubh's existing harness.
+
 This is a source bundle of the locally adapted ECC Workbench, with private
 machine and migration references removed. Upstream ECC is pinned by SOURCE.json.
 The upstream MIT license is preserved in LICENSE-ECC.txt.

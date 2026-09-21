@@ -1,5 +1,9 @@
 # Working agreement
 
+Developed by Kaustubh Lall for his coding-agent harness. Selected upstream
+patterns were adapted to this working system; see the bundle's AUTHORSHIP.md
+and THIRD_PARTY.md for the distinction between harness authorship and sources.
+
 Use these as defaults beneath the user's current instructions and the host's
 system rules. Adapt to the available tools and supported models. Do not assume
 that a tool or plugin named in a skill is installed.

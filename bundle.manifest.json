@@ -28,7 +28,7 @@
     "workflow-audit"
   ],
   "files": {
-    "plugins/ecc-workbench/.codex-plugin/plugin.json": "66d9dd38e6bc31805767514a843ce4496e8619482432a76988da4fb4748f23df",
+    "plugins/ecc-workbench/.codex-plugin/plugin.json": "da0a3401e5c5dcd0ce7230badbdd919a9fb5b6c275eddfe6ced2107c0fdd17e4",
     "plugins/ecc-workbench/hooks/hooks.json": "c49a1f24371d46457299786431ace937adf2cd9db6e1a71f5a9bf4af31d94530",
     "plugins/ecc-workbench/library/agents/a11y-architect.md": "88e684476cbc449a2444a1218a79034d275465f375ce45b6d86ab99958bf45e7",
     "plugins/ecc-workbench/library/agents/agent-evaluator.md": "ea9f0a419e0fa0844df5e0951c6ad087a059dff43b59bba03018801c1b53a545",
@@ -904,7 +904,7 @@
     "plugins/ecc-workbench/package-lock.json": "6f8f94909f7987d51c06b7fd682695bd3633bedc3bbd849545fd240eefc6cf19",
     "plugins/ecc-workbench/package.json": "4e101bf13b7a3a3fef2b4e737ecdb4ed8a7b2eb784e4e5cb9882237ba82bffba",
     "plugins/ecc-workbench/references/compatibility.md": "2f0efdb3f4c6877f7221792998aa15b0afeec4c14326020774690548a680abe6",
-    "plugins/ecc-workbench/RUNBOOK.md": "cb129bf739504300c10f55d4ab41f9713648f01e832198fc0e59bd9997c39111",
+    "plugins/ecc-workbench/RUNBOOK.md": "479cd281b117dd9b051a5c1c83ec5b231c29d2e9c79d93f2059729912516c566",
     "plugins/ecc-workbench/scripts/library.cjs": "3f411c54c833f86e42ea575f2b4eb6f95b36161e5d849c825cc74f4823df618a",
     "plugins/ecc-workbench/scripts/lifecycle.cjs": "4336a570073ae74befcc9947aa39bb0a5adb6ae2410bab4bdbbd9b3e88373d17",
     "plugins/ecc-workbench/scripts/runtime.cjs": "7b20547825c195129feadc1565a549a790e2d09e18167c78a9bdecd3aa41f5bc",
@@ -1228,7 +1228,7 @@
     "plugins/ecc-workbench/vendor/scripts/work-items.js": "95567b54820c8ad4ab2d60ed70828e19bfb313d4ff5a34e45a003382a01d88e0",
     "plugins/ecc-workbench/vendor/scripts/worktree-lifecycle.js": "49ad1ad1c8fe8cecdc9d3d5fa7e46042ab3220c814b91945252ae2e69895d6b5",
     "plugins/ecc-workbench/vendor/VERSION": "91930425f31d5132e78e0ad7195620e435121a2fdf87cf655f8323aa45ae0468",
-    "preferences/AGENTS.md": "c12100eb786d541cc2ed5c35dd5e583a0643657221463fafc145548e2ea7d994",
+    "preferences/AGENTS.md": "04d11107d6ba17884b9552ded6324d2f5b89bc7df47f66b9bfcf090bd833ab46",
     "skills/accessibility-regression-test/agents/openai.yaml": "f9b5e21caff6af22bfbc89cf9a6a04bbd5581a15c0e2e23cfc617789892fcc4d",
     "skills/accessibility-regression-test/LICENSE": "65646b2111d1a488ea529fa032473c6d49937033429aae061a0929267a0419c8",
     "skills/accessibility-regression-test/references/test-selection.md": "195ab336bfa086ba2595ee7dcaf84742c7cb0d9234cd9a2ebceb54c1dee1467e",
