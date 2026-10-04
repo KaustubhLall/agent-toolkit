@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "original-local-guidance",
+  "review_date": "2026-10-03",
+  "upstream_skill_copy": false,
+  "primary_sources": ["https://gymnasium.farama.org/main/tutorials/handling_time_limits/", "https://docs.pytorch.org/rl/stable/reference/generated/torchrl.envs.check_env_specs.html", "https://pettingzoo.farama.org/content/environment_tests/"],
+  "source_notes": "references/source.md",
+  "executables": [],
+  "dependencies": "None; existing project APIs and test styles, optional already-installed framework checkers",
+  "effects": "Optional checkers exercise/reset/seed/step environments and belong in disposable offline instances",
+  "verification": "Documentation and synthetic target/lifecycle probes; no game, training, holdout evaluation or productivity comparison"
+}

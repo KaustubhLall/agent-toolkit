@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "kind": "local-adaptation",
+  "review_date": "2026-10-03",
+  "upstream": {
+    "repository": "stas00/the-art-of-debugging",
+    "revision": "59a0c5b0535ead08e04d1ec1ba7b410b70ce3434",
+    "path": "SKILL.md",
+    "license": "CC-BY-SA-4.0",
+    "author": "Stas Bekman"
+  },
+  "changes": ["Narrowed native/Python/PyTorch diagnostics with target and artifact identity", "Bounded instrumentation, host-specific commands and precise GPU diagnostic limits", "Omitted kernel tunable changes, automatic package installation and upstream companion packages"],
+  "executables": [],
+  "dependencies": "None to install instructions; existing debugger/profiler/framework tools checked on the actual target when needed",
+  "effects": "Recipes may analyze dump files or instrument authorized reproductions; attach, imports, profiling and synchronized diagnostics have stated effects",
+  "verification": "Primary documentation and scenario review; no debugger, CUDA device or project workload was exercised"
+}

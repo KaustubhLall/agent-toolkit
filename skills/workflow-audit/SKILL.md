@@ -27,6 +27,15 @@ could contain one, so supply only instructional skill roots. Review the JSON
 before saving it to a task-owned record. Hashes detect changes only within the
 declared allowlist, not correctness, safety, actual usage or excluded-file drift.
 
+For third-party intake, review the executable surface separately: tests and their
+fixtures, package install/test lifecycle scripts, build helpers, and hook files
+may sit outside this inventory's allowlist. Inspect their entrypoints and callers
+before running them. Record what triggers execution, permissions and network/data
+access, including effects from composing the skill with the installed bundle.
+Distinguish agent-facing instructions from developer-invoked code; an inventory
+marked complete covers its declared allowlist, not the entire package. Do not
+claim sandbox or scanner coverage unless those tools and boundaries were verified.
+
 Review changed folders in depth, including their dependencies and downstream
 callers. Use keep, adapt, trial, defer or reject with a concrete reason. Overlap
 alone is not rejection: identify the useful delta and its existing owner. Unused

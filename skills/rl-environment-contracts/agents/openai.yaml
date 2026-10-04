@@ -1,0 +1,6 @@
+interface:
+  display_name: "RL Environment Contracts"
+  short_description: "Trace and verify RL environment-to-learner contracts"
+  default_prompt: "Use $rl-environment-contracts to trace this RL transition contract and identify a minimal offline check."
+policy:
+  allow_implicit_invocation: true

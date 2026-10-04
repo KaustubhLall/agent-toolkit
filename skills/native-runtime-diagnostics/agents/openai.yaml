@@ -1,0 +1,5 @@
+interface:
+  display_name: "Native Runtime Diagnostics"
+  short_description: "Diagnose native and PyTorch runtime failures"
+policy:
+  allow_implicit_invocation: true

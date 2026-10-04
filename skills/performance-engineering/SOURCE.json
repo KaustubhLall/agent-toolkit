@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "local-adaptation",
+  "review_date": "2026-10-03",
+  "upstream": {
+    "repository": "Mnwa/performance-engineering",
+    "revision": "1f8c23164f35c4c5868e765753904202ac4fe834",
+    "path": "skills/performance-engineering",
+    "license": "MIT",
+    "author": "Mnwa"
+  },
+  "changes": [
+    "Rewritten scoped entrypoint and implicit invocation metadata",
+    "Explicit speedup floor required in CLI and Python API; synthetic tests adapted",
+    "Explicit profiler artifact writes, additional NUMA source and upstream example attribution",
+    "Omitted teaching kernels, verifier, icons and historical validation artifacts"
+  ],
+  "executables": ["scripts/compare_benchmarks.py", "scripts/test_compare_benchmarks.py"],
+  "dependencies": "Python 3.10+ standard library for optional scalar comparator; target profiler tools only when present",
+  "effects": "Comparator reads supplied JSON, emits stdout and writes only an explicit output file; it does not execute workloads. Diagnostic recipes may execute or instrument authorized workloads and create explicit captures.",
+  "verification": "Source review and bounded synthetic probes; no project performance or productivity claim"
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Performance Engineering"
+  short_description: "Diagnose CPU, memory and backend performance"
+policy:
+  allow_implicit_invocation: true

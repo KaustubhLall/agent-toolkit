@@ -19,3 +19,10 @@ framework snippets and model identifiers are not authoritative local defaults.
 Private adaptation and rollback records are not distributed.
 
 Copyright (c) 2026 Affaan Mustafa. MIT license retained in LICENSE-ECC.txt.
+
+Intake scope clarification, checked 2026-10-03: locally written guidance separates
+instructional inventory from developer-executed package files. No additional
+third-party skill code was copied. Execution conditions are grounded in the
+[npm lifecycle documentation](https://docs.npmjs.com/cli/v11/using-npm/scripts)
+and [Git hook documentation](https://git-scm.com/docs/githooks); inspect the actual
+package and host configuration before inferring that a hook or script executes.
