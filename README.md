@@ -49,8 +49,11 @@ that every agent understands every provider-specific tool name in every skill.
 
 ## Included
 
-- All 25 enrolled standalone skills, including supporting scripts, examples,
+- All 28 enrolled standalone skills, including supporting scripts, examples,
   references and original licenses.
+- Focused performance measurement, native/PyTorch runtime diagnosis and RL
+  environment-contract guidance, with scoped triggers for automatic use on
+  compatible hosts. Selection depends on the host and model.
 - Reusable working preferences: evidence, project ownership, skill routing,
   communication, recovery, documentation and proportional verification.
 - ECC Workbench: 292 reference skills, 68 agent briefs, 94 recipes and 122 rules
@@ -84,6 +87,10 @@ node tools/install.mjs --targets codex,claude --apply
 Use the same target list you installed. [SYNC.md](docs/SYNC.md) explains how to
 enroll another publishing machine, move the automation and recover after a stop.
 One publisher is intentional; this is not an automatic two-way merge system.
+
+For a fixed version, use a tag from [GitHub Releases](https://github.com/KaustubhLall/agent-toolkit/releases)
+or download and extract its source archive, then run the same installer from the
+extracted repository. [CHANGELOG.md](CHANGELOG.md) records release contents.
 
 ## Verify and remove
 
