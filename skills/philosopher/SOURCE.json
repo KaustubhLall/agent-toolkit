@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "repository": "https://github.com/frypan05/philosopher-OKF",
+  "revision": "3542164ab25fb033fbc016f1ec77c0afa1de2993",
+  "author": "Daksh Sharma",
+  "license": "MIT",
+  "upstreamFiles": {
+    "SKILL.md": "08df5393b796bb7e65bfa7cebd9a3b803bfdbce0a91e986d35711463aad00185",
+    "LICENSE": "d0f0b0e6a979534474a63c9a28aee54eedd88a2116f51a92be7f1ca8249a799a",
+    "okf/core/audience-depth.md": "adbab18f0d9c3718b902befb79b5eb49f1ca7a8c7df5e1e28a374c5b5e6ec17b",
+    "okf/core/classifier.md": "ca2e23957a9943817ff93f562bd99337c732de895273b1d3334e85f11574e6ba",
+    "okf/core/index.md": "df68764a52e48a3f87abcb05ef1d8408284629988654c8cce190a883e0338af5",
+    "okf/core/knowledge-graph.md": "5bb98b03912c74bbed758bda072c399663dbb992714a51456941390c430f9351",
+    "okf/core/output-contract.md": "b4375784c2e245a3a9fa9e1a9f009b86cfac18171f1bb052f11619cee6c4f220",
+    "okf/core/page-template.md": "a71be279fdd2414e31bef2e9475e217cab42eea09c7590d266b39d2e76cbc1ab",
+    "okf/core/source-policy.md": "80f602abafa9c6f70a24dad26cf91195d03ca0cb361e5a946342ec1dc292ff9c",
+    "okf/core/workflow.md": "67fadf5eacb2e81ff5681394ac56e1a85818e5ddf621bb7ea24be6c0e2c0895c",
+    "okf/domains/business-management.md": "6492ef4c29ec471bd75b7b8edc0777a2c79f23deb101f5e81b9154e35989b8c5",
+    "okf/domains/economics.md": "1e7a9018f46ae230e2ec632e23ffba725e796827589ab5a6b0f83072100b4b30",
+    "okf/domains/finance-accounting.md": "31b85d21ff36ed49cf8da0f983759207ccd5dd6334ed19271830c0a6451b80b4",
+    "okf/domains/general.md": "48eecc211369ec7188f5006bb02b17e0a134eaba5cb1c5286b56848c233b66fc",
+    "okf/domains/humanities-philosophy-history.md": "36d9c4e354a333ac0277cc0170d8949f76d3672fb0f18660e64c217261dca4e3",
+    "okf/domains/index.md": "abf3f8cff35830e385d1cc427c570f11201ac2ba50c428fe06eadd6de5e9bc91",
+    "okf/domains/law-policy.md": "65bcbcd2570ce447573bc80c48295ce2f35f954b60de1efd46ca408a4af734ae",
+    "okf/domains/mathematics-statistics-logic.md": "da0ff4d333bc720d7a87c18e610acab093b07a8c220234eb778ca9df981e678e",
+    "okf/domains/medical-health.md": "ff69bcf4e7dd9da5bcaad03fb0bb8492c359fddff0884555ec931bf5b0fe0401",
+    "okf/domains/natural-sciences.md": "8ef5098c3a5606419c7ac808378a4898edb3a1c195e75bdc2588f2f858f80223",
+    "okf/domains/research-papers.md": "75e8dc44247aa3e890e28a4a3379858a9ff50dd32c8176853104f9cb2e359892",
+    "okf/domains/social-sciences-psychology.md": "fb62d50105ff7237c88b9e7912d57255a3ddacccb3c8c9947f189f1b678e5d09",
+    "okf/domains/technology-engineering.md": "693ecfc524097dfd68eb6e18424143d45297e6b33c99e007984c22fdf87a2a12",
+    "okf/index.md": "a58f838088e538ef002a4381d54d657b6aee271c7bd76e2d25e35a37efa5f155",
+    "okf/log.md": "98e5d039b0fcc747da045a7e4649f475f1aa5c36337ad9d205dd8de79815327f"
+  },
+  "adaptations": [
+    "Disabled automatic remote instruction fetching and live-main fallback.",
+    "Made host authorization, research and QA requirements explicitly authoritative.",
+    "Omitted upstream validator and automation; no upstream executable is installed or run."
+  ]
+}
