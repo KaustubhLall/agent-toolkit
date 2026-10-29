@@ -41,6 +41,8 @@ Use parallel workers for genuinely independent questions or file sets. A worker
 report is evidence to inspect, not independent proof. The integrator checks
 consequential claims, affected callers, and the final diff personally.
 
+For this user's Codex work, prefer ordinary ChatGPT Chat for suitable reviews, analysis and small patches when the available surface can do the work and offers a verified separate usage route. Check that Chat itself exposes the needed GitHub tools and exact repository access before assigning branches or PRs. Keep host execution and validation with the accessible runtime. Advise the user briefly when Chat access, tools or savings cannot be verified, then continue feasible authorized work. Read [references/gpt-usage-routing.md](references/gpt-usage-routing.md) for routing and honest cost reporting.
+
 ## Operating state and diagnostics
 
 For multi-step or multi-session work, maintain a task-owned state record with
