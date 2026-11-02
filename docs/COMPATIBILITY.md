@@ -22,6 +22,24 @@ installs target the current documented location. Claude Code uses
 `~/.config/opencode/skills`. Existing host configuration that overrides these
 locations must be reconciled separately.
 
+## Bounded read routing
+
+The ECC Workbench plugin includes an opt-in-by-trust `PreToolUse` gate for
+large full-file reads. Its defaults are 350 lines or 50,000 bytes, with small
+targeted ranges allowed through. Codex and Claude Code expose compatible
+permission-decision hook events, but plugin hooks still require explicit trust;
+the toolkit installer does not register a Claude plugin automatically, so
+Claude users must enable the documented hook path manually.
+Gemini CLI, OpenCode and generic installs are not assumed to expose the same
+gate; the portable orchestrator skill provides the manual bounded-reader path.
+
+The reader makes no provider or credential assumption. Without an explicitly
+configured worker command it returns bounded lexical excerpts locally. With a
+worker it makes one capped request, validates returned file locations and
+replaces worker text with exact local excerpts. Debugging, architecture,
+security-critical reasoning, review and exact edits retain a justified
+full-context or targeted-read escape.
+
 Skills remain source instructions. Host-specific tool names, integrations,
 model choices and execution facilities are conditional on actual availability.
 Imported agent briefs and recipes do not create native subagents or slash

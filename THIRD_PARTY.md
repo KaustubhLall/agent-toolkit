@@ -47,6 +47,12 @@ verbatim originals.
   scientific-thinking and Obsidian syntax sources, remain next to the material.
 - `obsidian` is a locally authored skill with public vault placeholders.
   Other local adaptations preserve the source notices they originally shipped.
+- Spotify Portal AI Plugins: the bounded-read routing design was reviewed as
+  reference material from `spotify/portal-ai-plugins` (Apache-2.0). This
+  toolkit's reader and hook are an independent provider-neutral implementation;
+  no Spotify source code is bundled. The upstream repository and license are
+  retained here as provenance for the adopted idea, not as a claim of shared
+  authorship or measured performance.
 
 Public transformations replace the private vault snapshot and layout with generic
 templates, remove private migration-record paths, generalize project examples

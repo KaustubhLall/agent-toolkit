@@ -27,6 +27,26 @@ source does not select a model or runtime.
    - risk review when identity, trust, persistence, migration, retry, or external-action boundaries change.
 5. Decide whether planner/executor/reviewer roles add value. Use them conditionally for substantial or independent work; keep one integrator accountable for scope, merge, and evidence. For a small task, work directly.
 
+### Bound expensive code reads
+
+Before asking a frontier model to read a complete file over the configured
+read-routing threshold (default: 350 lines or 50,000 bytes), use the bounded
+reader described in [bounded-read-routing](references/bounded-read-routing.md).
+It sends one bounded request to a configured worker, validates returned source
+locations against the local files, caps each span and the total returned lines
+before reading exact local text, and otherwise returns deterministic lexical
+excerpts without making an external model call. The bundled PreToolUse hook
+enforces this boundary only after the native plugin is enabled and its hooks are
+trusted; other providers keep the skill as an explicit fallback.
+
+Do not route debugging, architecture, security-critical reasoning, review, or
+exact edits through a summary. Use a small targeted read, or enable the
+full-context escape with a concrete reason recorded for the run. Keep worker
+fan-out at one invocation per request, respect file/payload/output caps, and
+stop on invalid or location-free worker output. The worker is opt-in, receives
+a minimal environment, and is refused common secret paths unless an explicit
+reviewed override reason is present.
+
 ## Delegate and integrate
 
 Workers receive a self-contained brief with the outcome, relevant owner files,
