@@ -52,10 +52,20 @@ reviewed override reason is present.
 Workers receive a self-contained brief with the outcome, relevant owner files,
 allowed write scope, known invariants, available evidence, and unresolved
 questions. Prefer isolated workspaces when concurrent writes could collide.
-Use `gpt-5.6-luna` or the host's cost-conscious equivalent for bounded workers
-when that model is available; select another supported model only when the user
-requests it or evidence shows a reasoning limitation. Model names are not
-authorization and must be checked against the active host.
+When the project already has an assigned manager or specialist chat, send the
+question and acceptance check to that owner. A manager may dispatch a scoped
+worker and owns verification. A worker returns its result to the manager.
+Reuse a partial result on handoff. Preserve the model settings of standing chats.
+
+For new bounded workers prefer `gpt-5.6-luna` with explicit `max` reasoning.
+Check the worker launcher's model and effort list. If it offers only the newer
+Luna, select `gpt-6-luna` at `max` and record the fallback. Use GPT-6.1 Terra
+for visual inspection, GPT-6.1 Sol for complex code or a failed reasoning
+check, and GPT-6 Astra for unresolved high-consequence reasoning. Resolve
+missing access, permissions, tools or inputs before changing models. Record
+the owner, model requested, effort, reason and verification result. Report
+the effective model separately when the host exposes it. See
+[worker selection and evidence](references/gpt-usage-routing.md#worker-selection).
 
 Use parallel workers for genuinely independent questions or file sets. A worker
 report is evidence to inspect, not independent proof. The integrator checks
@@ -108,3 +118,13 @@ Read only the relevant reference for the current mode:
 This skill is a local adaptation. It does not install ECC, dispatch external
 agents, mutate global configuration, or imply permission for deployment,
 messages, payments, gameplay, or other external actions.
+
+## Luna reasoning effort
+
+Use `max` reasoning for every Luna task and
+worker. When spawning a Luna subagent, explicitly set `reasoning_effort: "max"`
+instead of inheriting `xhigh`. Preserve other model choices and the user's
+existing subchat settings. A message asking an active worker to think harder
+does not change its runtime setting: if the host cannot retune an existing
+Luna worker, preserve its checkpoint and replace it at `max` before more work.
+Do not rewrite historical run records to imply they used a different setting.
