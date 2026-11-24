@@ -81,6 +81,7 @@ remain authoritative. A skill is guidance, not permission for new external actio
 
 | Work being done | Automatically applicable guidance |
 |---|---|
+| Implement, fix, refactor, or choose a code dependency | Use `ponytail` when installed and enabled. Trace affected callers and choose the smallest complete change. Handle routine edits directly. For substantial work the orchestrator passes the active level or opt-out to coding workers and coordinates any useful ECC lookup. |
 | Substantial comparison, deep research, or reconsidering a recommendation | `research-synthesis`; primary evidence and independent origins, a real counterargument, reusable sourced conclusions. |
 | Long task, context recovery, or expensive state to rediscover | `resumable-work`; extend the existing task record before creating a new one. |
 | Design/run an ML, simulation, game-AI, or backtest experiment | `experiment-cycle`; distinguish exploratory decisions from confirmation on untouched evidence. |

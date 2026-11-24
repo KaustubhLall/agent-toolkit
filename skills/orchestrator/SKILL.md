@@ -9,16 +9,17 @@ metadata:
 # ECC Workbench Orchestrator
 
 The current advisor owns integration. Select the smallest method that fits the
-task's uncertainty, failure cost, and authorization boundary. The planned plugin
-is named `ecc-workbench`; refer to its capabilities only when that plugin and
-the named capability are actually installed. The name `Devin` in historical
-source does not select a model or runtime.
+task's uncertainty, failure cost, and authorization boundary. Discover the ECC
+library through the native `ecc-workbench:library` skill or the portable
+`ecc-library` entrypoint. If neither is available, use project evidence and
+installed specialists. Check hooks and other capabilities separately. The name
+`Devin` in historical source does not select a model or runtime.
 
 ## Route the task
 
 1. Identify the outcome, owner files/systems, dominant risk, and acceptance evidence.
-2. Search local code, tests, installed skills, active tools, and project docs before adding a dependency, helper, or workflow.
-3. Use the ECC catalog disposition and dependency flow as a provisional routing hint: select one primary owner, then load only the supporting reference pack that changes the decision. Metadata-only entries require source inspection before adoption; dispositions are not permanent gates.
+2. For implementation, fixes and refactors, use `ponytail` when installed and enabled for this conversation. Trace affected callers first, then choose the smallest complete change. Give coding workers the skill location and active level, or carry forward the user's explicit opt-out. A simple edit can use Ponytail directly.
+3. Search local code, tests, skills and project docs before adding a dependency or workflow. When a domain question could change the approach, select one ECC lookup owner (integrator or worker) and share the relevant result. Use the available ECC library's catalog as a hint and inspect the matching source before adopting its advice.
 4. Choose a mode:
    - explore/prototype when the design or mechanism is uncertain;
    - hypothesis debugging when the cause is unknown or attempted repairs failed;

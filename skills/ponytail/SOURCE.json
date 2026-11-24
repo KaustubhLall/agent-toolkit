@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "local-adaptation",
+  "upstream": {
+    "repository": "https://github.com/DietrichGebert/ponytail",
+    "revision": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10",
+    "paths": ["skills/ponytail", "skills/ponytail-review", "skills/ponytail-audit", "skills/ponytail-debt"],
+    "license": "MIT",
+    "author": "DietrichGebert"
+  },
+  "adaptation": "Kaustubh Lall's harness routes the core method to coding tasks, carries the user's mode into worker briefs, and consults ECC on demand. Three one-shot reports share one optional reference.",
+  "distribution": "Instruction text and license only. Upstream host adapters, hooks, map, band, history import, scoreboard and installers are outside this distribution."
+}
