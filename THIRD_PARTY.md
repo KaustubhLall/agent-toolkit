@@ -15,6 +15,10 @@ bytes. Upstream source manifests describe upstream originals and can differ
 from a locally adapted entrypoint; they are not claims that adaptations are
 verbatim originals.
 
+- Ponytail implementation, review, audit and shortcut-debt methods are adapted
+  from DietrichGebert's [Ponytail](https://github.com/DietrichGebert/ponytail/tree/ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10)
+  under MIT. The skill folder carries the upstream license and source revision.
+  Kaustubh Lall adapted the instructions and integrated routing and ECC lookup.
 - ECC upstream corpus and source methods: MIT, Affaan Mustafa;
   upstream `affaan-m/ECC` commit `934195f955cf0da847d59fcd6f68856bce112d8b`.
   `plugins/ecc-workbench/SOURCE.json` pins the vendored originals. The exporter

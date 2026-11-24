@@ -22,6 +22,34 @@ installs target the current documented location. Claude Code uses
 `~/.config/opencode/skills`. Existing host configuration that overrides these
 locations must be reconciled separately.
 
+## Ponytail implementation routing
+
+Ponytail works as an instruction-only skill on the toolkit's existing install
+paths. A routine coding request can select it directly. On a larger change,
+the orchestrator gives the implementing worker the skill and active level.
+Either can consult ECC for a concrete question such as migration compatibility.
+One owner looks up the method and shares it. This also works with the portable
+`ecc-library` entrypoint installed on a machine without the native plugin.
+
+The useful part of the upstream method is the order of decisions. Trace all
+callers and establish the contract first. Then try existing project code,
+platform facilities and installed packages before adding an implementation.
+An earlier upstream experiment found that explicitly searching callers caught
+a broken sibling path that general advice to trace the flow had missed.
+[Upstream caller-tracing experiment](https://github.com/DietrichGebert/ponytail/blob/ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10/benchmarks/results/2026-06-22-issue-245-217-comprehension.md)
+
+The toolkit carries the core method and optional review, audit and shortcut
+reports. Mode and opt-out travel in conversation context and worker briefs.
+Upstream's lifecycle hooks, codebase map, Claude activity dashboard and session
+history import belong to its full plugin. Its published cost and time figures
+come from its Claude Code benchmark. [Upstream measurement and limits](https://github.com/DietrichGebert/ponytail/blob/ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10/benchmarks/results/2026-10-07-agentic.md)
+
+In one paired local trial, two fresh workers received the same CSV seat-zero
+bug and identical fixtures. The worker given the skill and the baseline worker
+both fixed the shared helper and added a regression test. Each passed all 15
+output checks across CSV, roster and ticket callers, including legacy empty
+fields. Both approaches solved this case. Cost and latency were unmeasured.
+
 ## Bounded read routing
 
 The ECC Workbench plugin includes an opt-in-by-trust `PreToolUse` gate for

@@ -49,8 +49,14 @@ that every agent understands every provider-specific tool name in every skill.
 
 ## Included
 
-- All 28 enrolled standalone skills, including supporting scripts, examples,
+- The standalone skills listed in `bundle.manifest.json`, including supporting scripts, examples,
   references and original licenses.
+- Ponytail, adapted from DietrichGebert's MIT-licensed skill, traces callers and
+  chooses the smallest complete change. Routine edits use it directly. For
+  substantial work the orchestrator briefs coding workers and routes specific
+  domain questions to ECC. Use plain language to select lite, full (default),
+  ultra or off. The skill also supports change reviews, repo audits and a
+  read-only report of deliberate shortcuts. [Ponytail skill](skills/ponytail/SKILL.md)
 - Focused performance measurement, native/PyTorch runtime diagnosis and RL
   environment-contract guidance, with scoped triggers for automatic use on
   compatible hosts. Selection depends on the host and model.
