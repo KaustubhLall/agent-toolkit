@@ -11,6 +11,28 @@ A portable, public copy of my reusable coding-agent skills and working preferenc
 Install the same bundle into Codex, Claude Code, Gemini CLI or OpenCode. Keep
 personal data, credentials and machine configuration outside the repository.
 
+## How the bundle fits together
+
+```text
+agent-toolkit/
+├── preferences/            Shared working rules
+├── skills/                 Standalone workflows selected by task
+│   ├── orchestrator/       Coordinate substantial work
+│   ├── ponytail/           Make the smallest complete code change
+│   └── …                   Specialists for specific tasks
+├── plugins/ecc-workbench/
+│   ├── skills/             Library and operations entry points
+│   └── library/            Pinned references fetched as needed
+├── bundle.manifest.json    Inventory and file hashes
+└── tools/                  Export and install the bundle
+```
+
+Each standalone skill ships with its `SKILL.md` and any bundled scripts,
+references and examples. ECC's library entry point retrieves relevant methods
+on demand. Its operations entry point supports work items and checkpoints that
+span sessions or owners. Apps and account connections are configured separately
+through the host. [Native plugin setup](docs/NATIVE-PLUGINS.md)
+
 ## Set up a new machine
 
 Install Git, Node.js 20 or newer, and your chosen coding assistant. Sign in to
@@ -46,6 +68,26 @@ node tools/install.mjs --targets generic --apply
 The generic target creates a portable copy for tools with configurable skill or
 instruction paths; configure that tool to read these paths. It does not claim
 that every agent understands every provider-specific tool name in every skill.
+
+## Debug skill selection in Codex
+
+Codex can select a skill from its `description` when the task matches. You can
+also select it explicitly. For example, compare “The edit dialog closes after
+saving, but keyboard focus disappears” with the same request using the
+`dialog-accessibility` skill. Run each in a fresh chat with the same project,
+environment and model. [Codex skill invocation](https://learn.chatgpt.com/docs/build-skills#how-chatgpt-and-codex-use-skills)
+
+1. **Check discovery.** Look for the skill in the desktop Skills sidebar or
+   run `/skills` in Codex CLI. If it is missing, check the active environment,
+   [install path](#set-up-a-new-machine), and whether the skill is enabled.
+2. **Check selection.** Look for evidence that Codex loaded the intended
+   `SKILL.md`, such as a file read in the chat activity where available. If
+   explicit selection loads it and the plain prompt does not, check the skill's
+   `description`, its implicit invocation policy, and whether Codex shortened or
+   omitted entries in the initial skill list.
+3. **Check execution.** Look for a step specific to the workflow. Here that
+   means checking where focus lands after saving and closing the dialog. A
+   loaded skill can still depend on a tool the environment does not provide.
 
 ## Included
 
